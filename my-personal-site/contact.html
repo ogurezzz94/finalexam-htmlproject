@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Jane Coder's Personal Site</h1>
+      <p>Front-End Developer in Training</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <form action="" method="get">
+        <div>
+          <label>Full Name</label>
+          <input type="text" minlength="3" required />
+        </div>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>Email</label>
+          <input type="email" required />
+        </div>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>Password</label>
+          <input type="password" minlength="8" required />
+        </div>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>Age</label>
+          <input type="number" min="13" max="120" required />
+        </div>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>Satisfaction</label>
+          <input type="range" min="1" max="10" required />
+        </div>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>Message</label>
+          <textarea rows="4" required></textarea>
+        </div>
+      </form>
+      <form action="" method="get">
+        <label>Contact reason</label>
+        <select>
+          <option>Job offer</option>
+          <option>collaboration</option>
+          <option>other</option>
+        </select>
+      </form>
+      <form action="" method="get">
+        <div>
+          <label>How did you find me?</label>
+          <input list="search" required />
+          <datalist id="search">
+            <option value="Google"></option>
+            <option value="LinkedIn"></option>
+            <option value="Friend"></option>
+          </datalist>
+        </div>
+      </form>
+      <fieldset action="" method="get" required>
+        <legend>Preferred contact method</legend>
+        <div>
+          <input type="radio" required />
+          <label>Email</label>
+        </div>
+        <div>
+          <input type="radio" required />
+          <label>Phone</label>
+        </div>
+        <div>
+          <input type="radio" required />
+          <label>Text</label>
+        </div>
+      </fieldset>
+      <fieldset action="" method="get" required>
+        <legend>Subscribe to</legend>
+        <div>
+          <input type="checkbox" required />
+          <label>News</label>
+        </div>
+        <div>
+          <input type="checkbox" required />
+          <label>Events</label>
+        </div>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </main>
+  </body>
+</html>
