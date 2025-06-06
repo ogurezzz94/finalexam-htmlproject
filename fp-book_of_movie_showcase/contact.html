@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <form action="/submit.html" method="post">
+          <label for="fullname">Full name</label><br />
+          <input type="text" id="fullname" name="personname" required /><br />
+          <label for="email">Email Address</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="favorit">Choose your favorit character</label><br />
+          <select name="favorit" id="favorit" required>
+            <option value="elira">Elira</option>
+            <option value="bram">Bram</option>
+            <option value="Willow">Willow</option>
+          </select>
+          <fieldset>
+            <legend>Would you recommend this story?</legend>
+            <label for="yes">
+              <input type="radio" id="yes" name="recommend" />Yes</label
+            ><br />
+            <label for="no">
+              <input type="radio" name="recommend" id="no" />No</label
+            >
+          </fieldset>
+          <br />
+          <label for="comment">Share your thoughts</label><br />
+          <textarea name="comment" id="comment" maxlength="300"></textarea
+          ><br />
+          <label for="updates">Sign me up for fan updates</label>
+          <input type="checkbox" id="updates" name="updates" /><br />
+          <input type="submit" value="Send message" />
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
